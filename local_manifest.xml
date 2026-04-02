@@ -20,6 +20,6 @@
   <!-- Extras -->
   <project name="0mar99/private_keys" path="vendor/lineage/signing" revision="derp" remote="github" />
   <project name="AOSP-for-vili/proprietary_vendor_sony_dolby" path="vendor/sony/dolby" revision="15-dolbymanager" remote="github" />
-  <project name="kenway214/packages_apps_GameBar" path="packages/apps/GameBar" revision="lunaris-16" remote="github" />
+  <project name="kenway214/packages_apps_GameBar" path="packages/apps/GameBar" revision="lineage-23.2" remote="github" />
 
 </manifest>
