@@ -15,11 +15,12 @@
   <project name="AOSP-for-vili/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" revision="lineage-23.2-ksu" remote="github" />
 
   <!-- Hardware sources -->
-  <project name="AOSP-for-vili/android_hardware_xiaomi" path="hardware/xiaomi" revision="derp-16.2" remote="github" />
+  <project name="AOSP-for-vili/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-23.2" remote="github" />
 
   <!-- Extras -->
   <project name="0mar99/private_keys" path="vendor/lineage/signing" revision="derp" remote="github" />
-  <project name="AOSP-for-vili/proprietary_vendor_sony_dolby" path="vendor/sony/dolby" revision="15-dolbymanager" remote="github" />
+  <project name="AOSP-for-vili/proprietary_vendor_sony_dolby" path="vendor/sony/dolby" revision="16-Lunaris" remote="github" />
+  <project name="AOSP-for-vili/android_packages_apps_LunarisDolby" path="packages/apps/LunarisDolby" revision="16" remote="github" />
   <project name="kenway214/packages_apps_GameBar" path="packages/apps/GameBar" revision="lineage-23.2" remote="github" />
   <project name="AOSP-for-vili/packages_apps_TouchServices" path="packages/apps/TouchServices" revision="lineage-23.2" remote="github" />
 
