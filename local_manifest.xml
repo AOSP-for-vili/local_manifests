@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- Gitlab Remote -->
+  <remote name="gitlab"
+          fetch="https://gitlab.com/" />
+
   <!-- Device trees -->
   <project name="AOSP-for-vili/android_device_xiaomi_vili" path="device/xiaomi/vili" revision="derp-16.2" remote="github" />
   <project name="AOSP-for-vili/android_device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" revision="derp-16.2" remote="github" />
