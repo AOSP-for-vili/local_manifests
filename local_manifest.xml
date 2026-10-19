@@ -2,30 +2,32 @@
 <manifest>
 
   <!-- Gitlab Remote -->
-  <remote name="gitlab"
-          fetch="https://gitlab.com/" />
+  <!-- <remote name="gitlab"
+          fetch="https://gitlab.com/" /> -->
 
   <!-- Device trees -->
-  <project name="AOSP-for-vili/android_device_xiaomi_vili" path="device/xiaomi/vili" revision="derp-16.2" remote="github" />
-  <project name="AOSP-for-vili/android_device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" revision="derp-16.2" remote="github" />
+  <project name="AOSP-for-vili/android_device_xiaomi_vili" path="device/xiaomi/vili" revision="derp-17" remote="github" />
+  <project name="AOSP-for-vili/android_device_xiaomi_sm8350-common" path="device/xiaomi/sm8350-common" revision="derp-17" remote="github" />
 
   <!-- Vendor trees -->
-  <project name="AOSP-for-vili/proprietary_vendor_xiaomi_vili" path="vendor/xiaomi/vili" revision="lineage-23.2" remote="github" />
-  <project name="AOSP-for-vili/proprietary_vendor_xiaomi_sm8350-common" path="vendor/xiaomi/sm8350-common" revision="derp-16.2" remote="github" />
-  <project name="AOSP-for-vili/proprietary_vendor_xiaomi_camera" path="vendor/xiaomi/camera" revision="lineage-23.2" remote="github" />
+  <project name="AOSP-for-vili/proprietary_vendor_xiaomi_vili" path="vendor/xiaomi/vili" revision="lineage-24.0" remote="github" />
+  <project name="AOSP-for-vili/proprietary_vendor_xiaomi_sm8350-common" path="vendor/xiaomi/sm8350-common" revision="derp-17" remote="github" />
+  <project name="AOSP-for-vili/proprietary_vendor_xiaomi_camera" path="vendor/xiaomi/camera" revision="17" remote="github" />
   <project name="0mar99/vendor-xiaomi-vili-firmware" path="vendor/xiaomi/vili-firmware" revision="main" remote="gitlab" />
 
   <!-- Kernel -->
-  <project name="AOSP-for-vili/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" revision="lineage-23.2" remote="github" />
+  <project name="AOSP-for-vili/android_kernel_xiaomi_sm8350" path="kernel/xiaomi/sm8350" revision="lineage-24.0" remote="github" />
 
   <!-- Hardware sources -->
-  <project name="AOSP-for-vili/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-23.2" remote="github" />
+  <project name="AOSP-for-vili/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-24.0" remote="github" />
 
   <!-- Extras -->
   <project name="0mar99/private_keys" path="vendor/lineage/signing" revision="derp" remote="github" />
   <project name="AOSP-for-vili/proprietary_vendor_sony_dolby" path="vendor/sony/dolby" revision="16-Lunaris" remote="github" />
   <project name="AOSP-for-vili/android_packages_apps_LunarisDolby" path="packages/apps/LunarisDolby" revision="16" remote="github" />
-  <project name="kenway214/packages_apps_GameBar" path="packages/apps/GameBar" revision="lineage-23.2" remote="github" />
-  <project name="AOSP-for-vili/packages_apps_TouchServices" path="packages/apps/TouchServices" revision="lineage-23.2" remote="github" />
+  <project name="0mar99/packages_apps_GameBar" path="packages/apps/GameBar" revision="lineage-24.0" remote="github" />
+  <project name="AOSP-for-vili/packages_apps_TouchServices" path="packages/apps/TouchServices" revision="lineage-24.0" remote="github" />
+  <project name="Lunaris-AOSP/packages_apps_Matlog" path="packages/apps/Matlog" revision="16.2" remote="github" />
+  <project name="Lunaris-AOSP/vendor_bcr" path="vendor/bcr" revision="16.2" remote="github" />
 
 </manifest>
